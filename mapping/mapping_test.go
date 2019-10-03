@@ -22,9 +22,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/blevesearch/bleve/analysis/tokenizer/exception"
-	"github.com/blevesearch/bleve/analysis/tokenizer/regexp"
-	"github.com/blevesearch/bleve/document"
+	"github.com/influxdata/bleve/analysis/tokenizer/exception"
+	"github.com/influxdata/bleve/analysis/tokenizer/regexp"
+	"github.com/influxdata/bleve/document"
 )
 
 var mappingSource = []byte(`{

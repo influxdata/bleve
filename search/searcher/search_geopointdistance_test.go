@@ -18,9 +18,9 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/blevesearch/bleve/geo"
-	"github.com/blevesearch/bleve/index"
-	"github.com/blevesearch/bleve/search"
+	"github.com/influxdata/bleve/geo"
+	"github.com/influxdata/bleve/index"
+	"github.com/influxdata/bleve/search"
 )
 
 func TestGeoPointDistanceSearcher(t *testing.T) {

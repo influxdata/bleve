@@ -18,8 +18,8 @@ import (
 	"reflect"
 	"sort"
 
-	"github.com/blevesearch/bleve/search"
-	"github.com/blevesearch/bleve/size"
+	"github.com/influxdata/bleve/search"
+	"github.com/influxdata/bleve/size"
 )
 
 var reflectStaticSizeTermsFacetBuilder int

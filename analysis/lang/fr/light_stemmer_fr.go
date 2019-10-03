@@ -18,8 +18,8 @@ import (
 	"bytes"
 	"unicode"
 
-	"github.com/blevesearch/bleve/analysis"
-	"github.com/blevesearch/bleve/registry"
+	"github.com/influxdata/bleve/analysis"
+	"github.com/influxdata/bleve/registry"
 )
 
 const LightStemmerName = "stemmer_fr_light"

@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/blevesearch/bleve/index/scorch/segment/zap"
+	"github.com/influxdata/bleve/index/scorch/segment/zap"
 	"github.com/spf13/cobra"
 )
 

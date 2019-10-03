@@ -20,11 +20,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/blevesearch/bleve/document"
-	"github.com/blevesearch/bleve/index"
-	"github.com/blevesearch/bleve/index/store"
-	"github.com/blevesearch/bleve/mapping"
-	"github.com/blevesearch/bleve/search"
+	"github.com/influxdata/bleve/document"
+	"github.com/influxdata/bleve/index"
+	"github.com/influxdata/bleve/index/store"
+	"github.com/influxdata/bleve/mapping"
+	"github.com/influxdata/bleve/search"
 )
 
 type indexAliasImpl struct {

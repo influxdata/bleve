@@ -15,10 +15,10 @@
 package simple
 
 import (
-	"github.com/blevesearch/bleve/analysis"
-	"github.com/blevesearch/bleve/analysis/token/lowercase"
-	"github.com/blevesearch/bleve/analysis/tokenizer/letter"
-	"github.com/blevesearch/bleve/registry"
+	"github.com/influxdata/bleve/analysis"
+	"github.com/influxdata/bleve/analysis/token/lowercase"
+	"github.com/influxdata/bleve/analysis/tokenizer/letter"
+	"github.com/influxdata/bleve/registry"
 )
 
 const Name = "simple"

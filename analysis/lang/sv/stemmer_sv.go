@@ -15,11 +15,11 @@
 package sv
 
 import (
-	"github.com/blevesearch/bleve/analysis"
-	"github.com/blevesearch/bleve/registry"
+	"github.com/influxdata/bleve/analysis"
+	"github.com/influxdata/bleve/registry"
 
-	"github.com/blevesearch/snowballstem"
-	"github.com/blevesearch/snowballstem/swedish"
+	"github.com/influxdata/snowballstem"
+	"github.com/influxdata/snowballstem/swedish"
 )
 
 const SnowballStemmerName = "stemmer_sv_snowball"

@@ -19,8 +19,8 @@ import (
 	"fmt"
 	"unicode/utf8"
 
-	"github.com/blevesearch/bleve/analysis"
-	"github.com/blevesearch/bleve/registry"
+	"github.com/influxdata/bleve/analysis"
+	"github.com/influxdata/bleve/registry"
 )
 
 const Name = "edge_ngram"

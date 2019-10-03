@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/blevesearch/bleve/index/upsidedown"
+	"github.com/influxdata/bleve/index/upsidedown"
 )
 
 // DebugDocumentHandler allows you to debug the index content

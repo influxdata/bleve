@@ -15,11 +15,11 @@
 package searcher
 
 import (
-	"github.com/blevesearch/bleve/document"
-	"github.com/blevesearch/bleve/geo"
-	"github.com/blevesearch/bleve/index"
-	"github.com/blevesearch/bleve/numeric"
-	"github.com/blevesearch/bleve/search"
+	"github.com/influxdata/bleve/document"
+	"github.com/influxdata/bleve/geo"
+	"github.com/influxdata/bleve/index"
+	"github.com/influxdata/bleve/numeric"
+	"github.com/influxdata/bleve/search"
 )
 
 type filterFunc func(key []byte) bool

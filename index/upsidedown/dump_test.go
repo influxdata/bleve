@@ -18,10 +18,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/blevesearch/bleve/index"
-	"github.com/blevesearch/bleve/index/store/boltdb"
+	"github.com/influxdata/bleve/index"
+	"github.com/influxdata/bleve/index/store/boltdb"
 
-	"github.com/blevesearch/bleve/document"
+	"github.com/influxdata/bleve/document"
 )
 
 func TestDump(t *testing.T) {

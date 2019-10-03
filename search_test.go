@@ -24,22 +24,22 @@ import (
 	"testing"
 	"time"
 
-	"github.com/blevesearch/bleve/analysis"
-	"github.com/blevesearch/bleve/analysis/analyzer/custom"
-	"github.com/blevesearch/bleve/analysis/analyzer/keyword"
-	"github.com/blevesearch/bleve/analysis/analyzer/standard"
-	"github.com/blevesearch/bleve/analysis/token/length"
-	"github.com/blevesearch/bleve/analysis/token/lowercase"
-	"github.com/blevesearch/bleve/analysis/token/shingle"
-	"github.com/blevesearch/bleve/analysis/tokenizer/single"
-	"github.com/blevesearch/bleve/analysis/tokenizer/whitespace"
-	"github.com/blevesearch/bleve/document"
-	"github.com/blevesearch/bleve/index/scorch"
-	"github.com/blevesearch/bleve/index/upsidedown"
-	"github.com/blevesearch/bleve/mapping"
-	"github.com/blevesearch/bleve/search"
-	"github.com/blevesearch/bleve/search/highlight/highlighter/html"
-	"github.com/blevesearch/bleve/search/query"
+	"github.com/influxdata/bleve/analysis"
+	"github.com/influxdata/bleve/analysis/analyzer/custom"
+	"github.com/influxdata/bleve/analysis/analyzer/keyword"
+	"github.com/influxdata/bleve/analysis/analyzer/standard"
+	"github.com/influxdata/bleve/analysis/token/length"
+	"github.com/influxdata/bleve/analysis/token/lowercase"
+	"github.com/influxdata/bleve/analysis/token/shingle"
+	"github.com/influxdata/bleve/analysis/tokenizer/single"
+	"github.com/influxdata/bleve/analysis/tokenizer/whitespace"
+	"github.com/influxdata/bleve/document"
+	"github.com/influxdata/bleve/index/scorch"
+	"github.com/influxdata/bleve/index/upsidedown"
+	"github.com/influxdata/bleve/mapping"
+	"github.com/influxdata/bleve/search"
+	"github.com/influxdata/bleve/search/highlight/highlighter/html"
+	"github.com/influxdata/bleve/search/query"
 )
 
 func TestSearchResultString(t *testing.T) {
@@ -432,7 +432,7 @@ func TestMemoryNeededForSearchResult(t *testing.T) {
 	}
 }
 
-// https://github.com/blevesearch/bleve/issues/954
+// https://github.com/influxdata/bleve/issues/954
 func TestNestedBooleanSearchers(t *testing.T) {
 	// create an index with a custom analyzer
 	idxMapping := NewIndexMapping()

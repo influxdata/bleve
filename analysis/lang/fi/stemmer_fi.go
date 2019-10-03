@@ -15,11 +15,11 @@
 package fi
 
 import (
-	"github.com/blevesearch/bleve/analysis"
-	"github.com/blevesearch/bleve/registry"
+	"github.com/influxdata/bleve/analysis"
+	"github.com/influxdata/bleve/registry"
 
-	"github.com/blevesearch/snowballstem"
-	"github.com/blevesearch/snowballstem/finnish"
+	"github.com/influxdata/snowballstem"
+	"github.com/influxdata/snowballstem/finnish"
 )
 
 const SnowballStemmerName = "stemmer_fi_snowball"

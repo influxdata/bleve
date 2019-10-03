@@ -18,8 +18,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/blevesearch/bleve/analysis"
-	"github.com/blevesearch/bleve/analysis/tokenizer/character"
+	"github.com/influxdata/bleve/analysis"
+	"github.com/influxdata/bleve/analysis/tokenizer/character"
 )
 
 func TestBoundary(t *testing.T) {

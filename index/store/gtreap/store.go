@@ -24,8 +24,8 @@ import (
 	"os"
 	"sync"
 
-	"github.com/blevesearch/bleve/index/store"
-	"github.com/blevesearch/bleve/registry"
+	"github.com/influxdata/bleve/index/store"
+	"github.com/influxdata/bleve/registry"
 	"github.com/steveyen/gtreap"
 )
 

@@ -15,11 +15,11 @@
 package ru
 
 import (
-	"github.com/blevesearch/bleve/analysis"
-	"github.com/blevesearch/bleve/registry"
+	"github.com/influxdata/bleve/analysis"
+	"github.com/influxdata/bleve/registry"
 
-	"github.com/blevesearch/snowballstem"
-	"github.com/blevesearch/snowballstem/russian"
+	"github.com/influxdata/snowballstem"
+	"github.com/influxdata/snowballstem/russian"
 )
 
 const SnowballStemmerName = "stemmer_ru_snowball"

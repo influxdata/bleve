@@ -19,9 +19,9 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/blevesearch/bleve/analysis"
-	"github.com/blevesearch/bleve/document"
-	"github.com/blevesearch/bleve/index"
+	"github.com/influxdata/bleve/analysis"
+	"github.com/influxdata/bleve/document"
+	"github.com/influxdata/bleve/index"
 	"github.com/couchbase/vellum/levenshtein"
 )
 

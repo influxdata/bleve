@@ -16,7 +16,7 @@ package segment
 
 import (
 	"github.com/RoaringBitmap/roaring"
-	"github.com/blevesearch/bleve/index"
+	"github.com/influxdata/bleve/index"
 	"github.com/couchbase/vellum"
 )
 

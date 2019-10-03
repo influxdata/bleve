@@ -17,8 +17,8 @@ package document
 import (
 	"reflect"
 
-	"github.com/blevesearch/bleve/analysis"
-	"github.com/blevesearch/bleve/size"
+	"github.com/influxdata/bleve/analysis"
+	"github.com/influxdata/bleve/size"
 )
 
 var reflectStaticSizeCompositeField int

@@ -17,7 +17,7 @@ package boltdb
 import (
 	"fmt"
 
-	"github.com/blevesearch/bleve/index/store"
+	"github.com/influxdata/bleve/index/store"
 )
 
 type Writer struct {

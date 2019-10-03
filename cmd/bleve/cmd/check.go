@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/blevesearch/bleve"
+	"github.com/influxdata/bleve"
 	"github.com/spf13/cobra"
 )
 

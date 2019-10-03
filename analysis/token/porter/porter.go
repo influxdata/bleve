@@ -17,10 +17,10 @@ package porter
 import (
 	"bytes"
 
-	"github.com/blevesearch/bleve/analysis"
-	"github.com/blevesearch/bleve/registry"
+	"github.com/influxdata/bleve/analysis"
+	"github.com/influxdata/bleve/registry"
 
-	"github.com/blevesearch/go-porterstemmer"
+	"github.com/influxdata/go-porterstemmer"
 )
 
 const Name = "stemmer_porter"

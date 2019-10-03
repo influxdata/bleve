@@ -18,9 +18,9 @@ import (
 	"reflect"
 	"sort"
 
-	"github.com/blevesearch/bleve/numeric"
-	"github.com/blevesearch/bleve/search"
-	"github.com/blevesearch/bleve/size"
+	"github.com/influxdata/bleve/numeric"
+	"github.com/influxdata/bleve/search"
+	"github.com/influxdata/bleve/size"
 )
 
 var reflectStaticSizeNumericFacetBuilder int

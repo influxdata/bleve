@@ -17,9 +17,9 @@ package analysis_test
 import (
 	"testing"
 
-	"github.com/blevesearch/bleve/analysis"
-	"github.com/blevesearch/bleve/analysis/analyzer/standard"
-	"github.com/blevesearch/bleve/registry"
+	"github.com/influxdata/bleve/analysis"
+	"github.com/influxdata/bleve/analysis/analyzer/standard"
+	"github.com/influxdata/bleve/registry"
 )
 
 func BenchmarkAnalysis(b *testing.B) {

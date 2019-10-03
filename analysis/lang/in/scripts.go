@@ -17,7 +17,7 @@ package in
 import (
 	"unicode"
 
-	"github.com/blevesearch/bleve/analysis"
+	"github.com/influxdata/bleve/analysis"
 	"github.com/willf/bitset"
 )
 

@@ -15,11 +15,11 @@
 package no
 
 import (
-	"github.com/blevesearch/bleve/analysis"
-	"github.com/blevesearch/bleve/registry"
+	"github.com/influxdata/bleve/analysis"
+	"github.com/influxdata/bleve/registry"
 
-	"github.com/blevesearch/snowballstem"
-	"github.com/blevesearch/snowballstem/norwegian"
+	"github.com/influxdata/snowballstem"
+	"github.com/influxdata/snowballstem/norwegian"
 )
 
 const SnowballStemmerName = "stemmer_no_snowball"

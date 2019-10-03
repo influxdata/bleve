@@ -15,7 +15,7 @@
 package cmd
 
 import (
-	"github.com/blevesearch/bleve/cmd/bleve/cmd/zap"
+	"github.com/influxdata/bleve/cmd/bleve/cmd/zap"
 )
 
 // make zap command-line tool a bleve sub-command

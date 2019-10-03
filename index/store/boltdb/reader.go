@@ -15,7 +15,7 @@
 package boltdb
 
 import (
-	"github.com/blevesearch/bleve/index/store"
+	"github.com/influxdata/bleve/index/store"
 	bolt "github.com/etcd-io/bbolt"
 )
 

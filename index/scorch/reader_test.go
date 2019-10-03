@@ -19,8 +19,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/blevesearch/bleve/document"
-	"github.com/blevesearch/bleve/index"
+	"github.com/influxdata/bleve/document"
+	"github.com/influxdata/bleve/index"
 )
 
 func TestIndexReader(t *testing.T) {

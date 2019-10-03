@@ -17,8 +17,8 @@ package scorer
 import (
 	"reflect"
 
-	"github.com/blevesearch/bleve/search"
-	"github.com/blevesearch/bleve/size"
+	"github.com/influxdata/bleve/search"
+	"github.com/influxdata/bleve/size"
 )
 
 var reflectStaticSizeConjunctionQueryScorer int

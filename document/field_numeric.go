@@ -18,9 +18,9 @@ import (
 	"fmt"
 	"reflect"
 
-	"github.com/blevesearch/bleve/analysis"
-	"github.com/blevesearch/bleve/numeric"
-	"github.com/blevesearch/bleve/size"
+	"github.com/influxdata/bleve/analysis"
+	"github.com/influxdata/bleve/numeric"
+	"github.com/influxdata/bleve/size"
 )
 
 var reflectStaticSizeNumericField int

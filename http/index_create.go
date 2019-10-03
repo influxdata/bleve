@@ -21,7 +21,7 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/blevesearch/bleve"
+	"github.com/influxdata/bleve"
 )
 
 type CreateIndexHandler struct {

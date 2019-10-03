@@ -15,11 +15,11 @@
 package nl
 
 import (
-	"github.com/blevesearch/bleve/analysis"
-	"github.com/blevesearch/bleve/registry"
+	"github.com/influxdata/bleve/analysis"
+	"github.com/influxdata/bleve/registry"
 
-	"github.com/blevesearch/snowballstem"
-	"github.com/blevesearch/snowballstem/dutch"
+	"github.com/influxdata/snowballstem"
+	"github.com/influxdata/snowballstem/dutch"
 )
 
 const SnowballStemmerName = "stemmer_nl_snowball"

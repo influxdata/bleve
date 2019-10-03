@@ -19,9 +19,9 @@ import (
 	"sort"
 	"time"
 
-	"github.com/blevesearch/bleve/numeric"
-	"github.com/blevesearch/bleve/search"
-	"github.com/blevesearch/bleve/size"
+	"github.com/influxdata/bleve/numeric"
+	"github.com/influxdata/bleve/search"
+	"github.com/influxdata/bleve/size"
 )
 
 var reflectStaticSizeDateTimeFacetBuilder int

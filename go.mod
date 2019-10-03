@@ -4,12 +4,12 @@ go 1.12
 
 require (
 	github.com/RoaringBitmap/roaring v0.0.0-20190803203039-d0ce1763c352
-	github.com/blevesearch/bleve v0.8.1
-	github.com/blevesearch/blevex v0.0.0-20190916190636-152f0fe5c040
-	github.com/blevesearch/cld2 v0.0.0-20150916130542-10f17c049ec9 // indirect
-	github.com/blevesearch/go-porterstemmer v1.0.2
-	github.com/blevesearch/segment v0.0.0-20160105220820-db70c57796cc
-	github.com/blevesearch/snowballstem v0.0.0-20180110192139-26b06a2c243d
+	github.com/influxdata/bleve v0.8.1
+	github.com/influxdata/blevex v0.0.0-20190916190636-152f0fe5c040
+	github.com/influxdata/cld2 v0.0.0-20150916130542-10f17c049ec9 // indirect
+	github.com/influxdata/go-porterstemmer v1.0.2
+	github.com/influxdata/segment v0.0.0-20160105220820-db70c57796cc
+	github.com/influxdata/snowballstem v0.0.0-20180110192139-26b06a2c243d
 	github.com/couchbase/ghistogram v0.0.0 // indirect
 	github.com/couchbase/moss v0.0.0-20180131212105-013a19c55df3
 	github.com/couchbase/vellum v0.0.0-20190826054710-dc222902e86f

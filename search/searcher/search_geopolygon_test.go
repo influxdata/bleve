@@ -18,12 +18,12 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/blevesearch/bleve/document"
-	"github.com/blevesearch/bleve/geo"
-	"github.com/blevesearch/bleve/index"
-	"github.com/blevesearch/bleve/index/store/gtreap"
-	"github.com/blevesearch/bleve/index/upsidedown"
-	"github.com/blevesearch/bleve/search"
+	"github.com/influxdata/bleve/document"
+	"github.com/influxdata/bleve/geo"
+	"github.com/influxdata/bleve/index"
+	"github.com/influxdata/bleve/index/store/gtreap"
+	"github.com/influxdata/bleve/index/upsidedown"
+	"github.com/influxdata/bleve/search"
 )
 
 func TestSimpleGeoPolygons(t *testing.T) {

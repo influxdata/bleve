@@ -20,13 +20,13 @@ import (
 	"math"
 	"time"
 
-	"github.com/blevesearch/bleve/analysis/datetime/optional"
-	"github.com/blevesearch/bleve/index"
-	"github.com/blevesearch/bleve/mapping"
-	"github.com/blevesearch/bleve/numeric"
-	"github.com/blevesearch/bleve/registry"
-	"github.com/blevesearch/bleve/search"
-	"github.com/blevesearch/bleve/search/searcher"
+	"github.com/influxdata/bleve/analysis/datetime/optional"
+	"github.com/influxdata/bleve/index"
+	"github.com/influxdata/bleve/mapping"
+	"github.com/influxdata/bleve/numeric"
+	"github.com/influxdata/bleve/registry"
+	"github.com/influxdata/bleve/search"
+	"github.com/influxdata/bleve/search/searcher"
 )
 
 // QueryDateTimeParser controls the default query date time parser

@@ -19,10 +19,10 @@ import (
 	"reflect"
 	"sort"
 
-	"github.com/blevesearch/bleve/index"
-	"github.com/blevesearch/bleve/search"
-	"github.com/blevesearch/bleve/search/scorer"
-	"github.com/blevesearch/bleve/size"
+	"github.com/influxdata/bleve/index"
+	"github.com/influxdata/bleve/search"
+	"github.com/influxdata/bleve/search/scorer"
+	"github.com/influxdata/bleve/size"
 )
 
 var reflectStaticSizeConjunctionSearcher int

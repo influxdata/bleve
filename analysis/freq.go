@@ -17,7 +17,7 @@ package analysis
 import (
 	"reflect"
 
-	"github.com/blevesearch/bleve/size"
+	"github.com/influxdata/bleve/size"
 )
 
 var reflectStaticSizeTokenLocation int
